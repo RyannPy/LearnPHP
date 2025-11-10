@@ -1,0 +1,167 @@
+/* ===== Global Dark Mode ===== */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #0e0e11, #1b1c22);
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #6a5af9, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #6a5af9, #00d4ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(106, 90, 249, 0.4);
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 18px rgba(106, 90, 249, 0.7);
+}
+
+/* ===== Card ===== */
+.card {
+    background: #181820;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 22px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.card .meta {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.card a.readmore {
+    color: #00d4ff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card a.readmore:hover {
+    text-decoration: underline;
+}
+
+/* ===== Blog Content ===== */
+.blog-content {
+    line-height: 1.8;
+    color: #e6e6e6;
+    background: #181820;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.blog-content h2 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.blog-content .meta {
+    color: #999;
+}
+
+/* ===== Form ===== */
+form {
+    background: #181820;
+    padding: 25px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #ddd;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #0e0e13;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+    font-family: inherit;
+    transition: 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #6a5af9;
+    box-shadow: 0 0 8px rgba(106, 90, 249, 0.5);
+}
+
+form textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+    background: linear-gradient(135deg, #6a5af9, #00d4ff);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(106, 90, 249, 0.5);
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 18px rgba(106, 90, 249, 0.8);
+}
